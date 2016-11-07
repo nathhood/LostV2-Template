@@ -16,6 +16,8 @@ namespace LostV2
 {
     public partial class Form1 : Form
     {
+
+        Random randGen = new Random();// create a random number generator 
         int scene = 0;  // tracks what part of the game the user is at
 
         public Form1()
@@ -60,7 +62,7 @@ namespace LostV2
                 }
 
             }
-                if (e.KeyCode == Keys.B)  //blue button press
+            if (e.KeyCode == Keys.B)  //blue button press
             {
                 if (scene == 0)
                 {
@@ -84,7 +86,17 @@ namespace LostV2
                 }
                 else if (scene == 10)
                 {
-                    scene = 12;
+                    //get random number for the variable
+                    int percentValue = randGen.Next(1, 11);
+                    //30% chance to win the round
+                    if (percentValue >= 4)
+                    {
+                        scene = 12;
+                    }
+                    else if (percentValue <= 3)
+                    {
+                        scene = 13;
+                    }
                 }
             }
 
@@ -166,7 +178,7 @@ namespace LostV2
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     break;
-                    
+
                 default:
                     break;
             }
