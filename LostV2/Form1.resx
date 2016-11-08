@@ -121,34 +121,6 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        /9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAATU0AKgAAAAgAAQESAAMAAAABAAEAAAAAAAD/2wBD
-        AAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0M
-        DgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
-        DAwMDAwMDAwMDAwMDAz/wAARCAApADkDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQF
-        BgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAk
-        M2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWG
-        h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx
-        8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQA
-        AQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5
-        OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmq
-        srO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+
-        f+iiigAor7X/AGFf2FdES68N+KviBY/8JDea4YrvQPDUM6/ZrlMSFjqLNHtSPb5bhVkBILBirYU/btx4
-        U8K6b4ZfS7P4f/CnRo+R9j0vQ5DajIwSZZF8zee5CkccE18Hm/iBl2BqSoxvOUXZ2aS00dm97PTS6umu
-        h+VcReLmUZXWnh4J1JwbTs0ldaOzb1Sd4tpNcyavdH4l0V+pf7Q//BOTwz+0P8ONUXwl4Z03wz440S1+
-        1WB054rOz1eSSSPiZpMB12hlDKyeUz7pdqq+Py+1vRrrw5rV5p99C1veWEz288TD5opEYqyn3BBFe1w7
-        xLhc4ourQTjKO8Xuuz80+jWl01umfScG8bYHiPCuvhU4yj8UJW5lfZ6aOL6SWjaa3TKtFFFfRH2IUCii
-        gD9lvhDrdprXxB8cXtrcQTwyCx+yGJg0Zt2jZm2Hoyl1Qk84IA710upXW+Q9ODXw1+wr+13pEth4a8K6
-        hdz6D4i0dDp9nPLMZNP8RRSM7CC5wgaARgRhG3MN+GOFUo31xN44tZpRG89rvIGfIuklXJ7Bsjj3xX8y
-        cXcO1cHjL2dtLPvZWvfZ3td9m7PU/jvxE4QrZfjnUjH3JWs/NJRv53tzO2zdnrv79+zjceHdV8Q+C4bp
-        s6hp/iCCKaOZ9sdza3cn2e8jHP3BZyzsx4IALZGM1+Mv/BSPxJovif8AbT+IM2h28cMMOt31vcSI25bq
-        dbqYPNnJzu4ORxX2t+0N+2fpf7L/AIVOoQXlvceMTbu/h2wtibiF5GKxSSXMqOPLVYpHIC/M23Z8ud4/
-        MHW9YuPEOs3moXUjS3V9M9xM5JJd3YsxJOTySetfpPhtl+JhSliq8HGLSUenNtrbttr16H6h4MZNjaNC
-        eMxVL2cWuWN1ZyWjvbqtFZ7Nt286tFFFfqR+6BRRRQAVNBqFxbD93NNH/uuRUNFAATk0UUUAFFFFAH//
-        2Q==
-</value>
-  </data>
   <data name="teamPickPic.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAeAB4AAD/4QBuRXhpZgAATU0AKgAAAAgAAwESAAMAAAABAAEAAAExAAIAAAAH

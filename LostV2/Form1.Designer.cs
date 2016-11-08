@@ -36,7 +36,7 @@
             this.blueImage = new System.Windows.Forms.PictureBox();
             this.redImage = new System.Windows.Forms.PictureBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.greenImage = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.greenLabel = new System.Windows.Forms.Label();
             this.teamPickPic = new System.Windows.Forms.PictureBox();
@@ -45,7 +45,7 @@
             this.m4pic = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.blueImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.redImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teamPickPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.awpPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.akPic)).BeginInit();
@@ -66,9 +66,10 @@
             // 
             this.redLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.redLabel.ForeColor = System.Drawing.Color.White;
-            this.redLabel.Location = new System.Drawing.Point(93, 377);
+            this.redLabel.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.redLabel.Location = new System.Drawing.Point(97, 418);
             this.redLabel.Name = "redLabel";
-            this.redLabel.Size = new System.Drawing.Size(343, 28);
+            this.redLabel.Size = new System.Drawing.Size(343, 31);
             this.redLabel.TabIndex = 3;
             this.redLabel.Text = "label1";
             // 
@@ -76,16 +77,16 @@
             // 
             this.blueLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blueLabel.ForeColor = System.Drawing.Color.White;
-            this.blueLabel.Location = new System.Drawing.Point(93, 421);
+            this.blueLabel.Location = new System.Drawing.Point(97, 373);
             this.blueLabel.Name = "blueLabel";
-            this.blueLabel.Size = new System.Drawing.Size(343, 28);
+            this.blueLabel.Size = new System.Drawing.Size(343, 31);
             this.blueLabel.TabIndex = 4;
             this.blueLabel.Text = "label1";
             // 
             // blueImage
             // 
             this.blueImage.Image = global::LostV2.Properties.Resources.blue_50x50;
-            this.blueImage.Location = new System.Drawing.Point(36, 409);
+            this.blueImage.Location = new System.Drawing.Point(36, 365);
             this.blueImage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.blueImage.Name = "blueImage";
             this.blueImage.Size = new System.Drawing.Size(52, 39);
@@ -96,7 +97,7 @@
             // redImage
             // 
             this.redImage.Image = global::LostV2.Properties.Resources.red_50x50;
-            this.redImage.Location = new System.Drawing.Point(36, 364);
+            this.redImage.Location = new System.Drawing.Point(36, 408);
             this.redImage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.redImage.Name = "redImage";
             this.redImage.Size = new System.Drawing.Size(52, 39);
@@ -110,15 +111,16 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // pictureBox1
+            // greenImage
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(36, 453);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 46);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.greenImage.Image = global::LostV2.Properties.Resources.green_50x50;
+            this.greenImage.Location = new System.Drawing.Point(36, 453);
+            this.greenImage.Margin = new System.Windows.Forms.Padding(4);
+            this.greenImage.Name = "greenImage";
+            this.greenImage.Size = new System.Drawing.Size(52, 39);
+            this.greenImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.greenImage.TabIndex = 5;
+            this.greenImage.TabStop = false;
             // 
             // label1
             // 
@@ -131,12 +133,11 @@
             // 
             // greenLabel
             // 
-            this.greenLabel.AutoSize = true;
             this.greenLabel.Font = new System.Drawing.Font("Courier New", 10F);
             this.greenLabel.ForeColor = System.Drawing.Color.White;
-            this.greenLabel.Location = new System.Drawing.Point(94, 470);
+            this.greenLabel.Location = new System.Drawing.Point(97, 467);
             this.greenLabel.Name = "greenLabel";
-            this.greenLabel.Size = new System.Drawing.Size(69, 20);
+            this.greenLabel.Size = new System.Drawing.Size(339, 25);
             this.greenLabel.TabIndex = 7;
             this.greenLabel.Text = "label2";
             // 
@@ -188,7 +189,7 @@
             this.Controls.Add(this.teamPickPic);
             this.Controls.Add(this.greenLabel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.greenImage);
             this.Controls.Add(this.blueLabel);
             this.Controls.Add(this.redLabel);
             this.Controls.Add(this.outputLabel);
@@ -202,7 +203,7 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.blueImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.redImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.greenImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.teamPickPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.awpPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.akPic)).EndInit();
@@ -220,7 +221,7 @@
         private System.Windows.Forms.Label redLabel;
         private System.Windows.Forms.Label blueLabel;
         private System.Windows.Forms.ImageList imageList1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox greenImage;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label greenLabel;
         private System.Windows.Forms.PictureBox teamPickPic;
