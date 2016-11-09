@@ -54,9 +54,9 @@
             // 
             // outputLabel
             // 
-            this.outputLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.Font = new System.Drawing.Font("Visitor TT1 BRK", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.outputLabel.ForeColor = System.Drawing.Color.White;
-            this.outputLabel.Location = new System.Drawing.Point(32, 34);
+            this.outputLabel.Location = new System.Drawing.Point(32, 17);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(452, 316);
             this.outputLabel.TabIndex = 2;
@@ -64,7 +64,7 @@
             // 
             // redLabel
             // 
-            this.redLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.redLabel.Font = new System.Drawing.Font("Visitor TT1 BRK", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.redLabel.ForeColor = System.Drawing.Color.White;
             this.redLabel.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.redLabel.Location = new System.Drawing.Point(97, 418);
@@ -75,7 +75,7 @@
             // 
             // blueLabel
             // 
-            this.blueLabel.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blueLabel.Font = new System.Drawing.Font("Visitor TT1 BRK", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.blueLabel.ForeColor = System.Drawing.Color.White;
             this.blueLabel.Location = new System.Drawing.Point(97, 373);
             this.blueLabel.Name = "blueLabel";
@@ -133,7 +133,7 @@
             // 
             // greenLabel
             // 
-            this.greenLabel.Font = new System.Drawing.Font("Courier New", 10F);
+            this.greenLabel.Font = new System.Drawing.Font("Visitor TT1 BRK", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.greenLabel.ForeColor = System.Drawing.Color.White;
             this.greenLabel.Location = new System.Drawing.Point(97, 467);
             this.greenLabel.Name = "greenLabel";
@@ -144,7 +144,7 @@
             // teamPickPic
             // 
             this.teamPickPic.Image = ((System.Drawing.Image)(resources.GetObject("teamPickPic.Image")));
-            this.teamPickPic.Location = new System.Drawing.Point(12, 85);
+            this.teamPickPic.Location = new System.Drawing.Point(12, 86);
             this.teamPickPic.Name = "teamPickPic";
             this.teamPickPic.Size = new System.Drawing.Size(479, 274);
             this.teamPickPic.TabIndex = 8;
