@@ -36,7 +36,7 @@ namespace LostV2
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            SoundPlayer winJingle = new SoundPlayer(Properties.Resources.winningJingle); //to desgnate the sound file
+            SoundPlayer cheeringSound = new SoundPlayer(Properties.Resources.cheeringSound); //to desgnate the sound file
             SoundPlayer painSound = new SoundPlayer(Properties.Resources.painSound); //to desgnate the sound file
             /// check to see what button has been pressed and advance
             /// to the next appropriate scene
@@ -152,7 +152,7 @@ namespace LostV2
                     redLabel.Text = "Rush Mid";
                     blueLabel.Text = "Pick Long";
                     greenLabel.Text = "";
-                    awpPic.Visible = false;
+                    awpPic.Visible = true;
                     akPic.Visible = false;
                     break;
                 case 4:
@@ -161,6 +161,7 @@ namespace LostV2
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     greenLabel.Text = "Restart";
+                    awpPic.Visible = true;
                     break;
                 case 5:
                     outputLabel.Text = "Your team can rush B or go CAT. Where do you go?";
@@ -168,19 +169,23 @@ namespace LostV2
                     blueLabel.Text = "Go CAT";
                     greenLabel.Text = "";
                     awpPic.Visible = false;
-                    akPic.Visible = false;
+                    akPic.Visible = true;
                     break;
                 case 6:
+                    cheeringSound.Play();
                     outputLabel.Text = "You pick off an enemy peeking the doors. You continue to go long with your team and get the bomb down, you win!";
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     greenLabel.Text = "Restart";
+                    awpPic.Visible = true;
                     break;
                 case 7:
+                    cheeringSound.Play();
                     outputLabel.Text = "You rush B and get bomb plant. The Counter Terrorists can not retake the site to defuse. You win!";
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     greenLabel.Text = "Restart";
+                    akPic.Visible = true;
                     break;
                 case 8:
                     painSound.Play();
@@ -188,6 +193,7 @@ namespace LostV2
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     greenLabel.Text = "Restart";
+                    akPic.Visible = true;
                     break;
                 case 9:
                     painSound.Play();
@@ -217,6 +223,7 @@ namespace LostV2
                     greenLabel.Text = "Restart";
                     break;
                 case 13:
+                    cheeringSound.Play();
                     outputLabel.Text = "You get an ACE, killing the entire Terrorist team. You win the match for the team!";
                     redLabel.Text = "";
                     blueLabel.Text = "";

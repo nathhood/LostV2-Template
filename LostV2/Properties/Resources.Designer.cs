@@ -71,6 +71,15 @@ namespace LostV2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream cheeringSound {
+            get {
+                return ResourceManager.GetStream("cheeringSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap green_50x50 {
@@ -118,11 +127,11 @@ namespace LostV2.Properties {
         ///    &lt;resheader name=&quot;resmimetype&quot;&gt;text/microsoft-resx&lt;/resheader&gt;
         ///    &lt;resheader n [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Resources {
+     /*   internal static string Resources {
             get {
                 return ResourceManager.GetString("Resources", resourceCulture);
             }
-        }
+        }*/
         
         /// <summary>
         ///   Looks up a localized string similar to //------------------------------------------------------------------------------
